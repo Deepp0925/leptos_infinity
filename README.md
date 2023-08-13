@@ -1,6 +1,3 @@
-# Infinity
+# Leptos Infinity
 
-An optimization library for large number of DOM elements
-
-- [] Table
-- [] ListView
+An optimization library for rendering a large list in leptos

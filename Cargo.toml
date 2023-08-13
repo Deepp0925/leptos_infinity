@@ -1,6 +1,6 @@
 [package]
 name = "leptos-infinity"
-description = "An optimization library for large list of dom elements"
+description = "An optimization library for rendering a large list in leptos"
 license = "MIT"
 version = "0.0.0"
 edition = "2021"
@@ -10,8 +10,9 @@ repository = "https://github.com/Deepp0925/leptos_infinity"
 homepage = "https://github.com/Deepp0925/leptos_infinity"
 documentation = "https://docs.rs/leptos-infinity"
 keywords = ["leptos", "infinity", "leptos-infinity"]
-categories = ["web", "optimization", "leptos", "wasm"]
+categories = ["wasm"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+leptos = {version = "0.4.8", features = ["wasm-bindgen", "csr"]}
